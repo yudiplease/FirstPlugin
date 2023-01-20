@@ -1,0 +1,13 @@
+name: FirstPlugin
+version: '${version}'
+main: com.yudiprojects.firstplugin.FirstPlugin
+api-version: 1.16
+authors: [ yudiplease ]
+description: Yudi's First Plugin
+website: vk.com/yyudiplease
+libraries:
+  - org.postgresql:postgresql:42.2.23
+commands:
+  reg:
+    description: Registration command
+    usage: /reg
